@@ -35,7 +35,7 @@ export default class BottomSheet extends Component {
             <Animated.View
               style={{
                 transform: [{ translateY: this.translationY }],
-                height: 300,
+                flex: 1,
               }}
             >
               <Text>Hello</Text>
